@@ -7,11 +7,44 @@
 
 
 .cx_cabeçalho{
-    background-color:#D97823;
+    background-color:#1A2624;
 }
 
 .titulo_cabeçalho{
-    color: #1A2624;
-    padding-left: 50px;
-    padding-top: 15px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.cx_principal{
+    position: relative;
+}
+
+.conteudo_apresentaçao{
+    position: absolute;
+    top: 40vh;
+}
+
+.t_banner{
+    margin-left: 40px;
+    font-size: 4rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.p_banner{
+    margin-left: 40px;
+    margin-right: 600px;
+
+}
+
+.btn{
+    margin-left: 20px;
+}
+
+img{
+    filter: grayscale(1);
 }
