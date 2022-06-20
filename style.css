@@ -89,6 +89,7 @@
 }
 
 .contener_relax{
+    background-color: #8C745E;
     display: flex;
     justify-items: center;
     justify-content: space-between;
@@ -104,3 +105,14 @@
     height: 200px;
 }
 
+.controles{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.controles img {
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}

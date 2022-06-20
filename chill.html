@@ -31,21 +31,43 @@
     <main class="cx_total">
         <h2 class="text-center">Musicas ambiente para voce relaxar</h2>
             <div class="contener_relax">
-                    <div>
-                        <h3>Chuva</h3>
-                        <p>Son de chuva</p>
-                    </div>
-                    <img src="./img/pexels-vlad-chețan-1529360.jpg" alt="" class="img_relax">
+                <div>
+                    <h3 class="text-white">Chuva</h3>
+                        <p class="text-white">Son de chuva</p>
+
+                            <div id="waveform"></div>
+                                <div class="controles">
+                                    <img src="./img/play.png" alt="" id="playBtn">
+                                    <img src="./img/stop.png" alt="" id="stopBtn">
+                                    <img src="./img/volume.png" alt="" id="volBtn">
+                                </div>
+
+                </div>
+                    
+                <img src="./img/pexels-vlad-chețan-1529360.jpg" alt="" class="img_relax">
             </div>
+
             <div class="contener_relax">
                 <div>
                     <h3>Fogueira</h3>
-                    <p>Son de fogueira</p>
+                        <p>Son de fogueira</p>
+
+                        <div id="waveform-2"></div>
+                            <div class="controles">
+                                <img src="./img/play.png" alt="" id="playBtn1">
+                                <img src="./img/stop.png" alt="" id="stopBtn1">
+                                <img src="./img/volume.png" alt="" id="volBtn1">
+                            </div>
+
                 </div>
                 <img src="./img/pexels-jens-mahnke-776113.jpg" alt="" class="img_relax">
-        </div>
+            </div>
 
     </main>
-    
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
