@@ -45,6 +45,62 @@
     margin-left: 20px;
 }
 
-img{
-    filter: grayscale(1);
+.link{
+    color: #BFAE9F;
+    text-decoration: none;
 }
+.link:hover{
+    color: #BFAE9F;
+}
+
+
+/* Style da aba Tecnologia */
+.cx_apresentaçao{
+    margin-top: 40px;
+}
+
+.contener_tec{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border:#BFAE9F solid 1px;
+    border-radius: 4px;
+    margin: 50px 200px;
+    padding: 20px;
+}
+
+.cx_conteudo{
+    margin-right: 20px;
+}
+
+.paragrafo_t{
+    margin-right: 50px;
+}
+
+.img_tec{
+    width: 200px;
+    height: 200px;
+}
+
+/* style da aba chill */
+
+.cx_total{
+    margin-top: 40px;
+}
+
+.contener_relax{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 50px 300px;
+    border: #BFAE9F solid 1px;
+    padding: 20px;
+    border-radius: 4px;
+    
+}
+
+.img_relax{
+    width: 200px;
+    height: 200px;
+}
+
