@@ -1,13 +1,7 @@
-/* Color Theme Swatches in Hex */
-.Home-studio-podcast-interior.-Microphone,-laptop-and-on-air-lamp-on-the-table,-close-up-1-hex { color: #1A2624; }
-.Home-studio-podcast-interior.-Microphone,-laptop-and-on-air-lamp-on-the-table,-close-up-2-hex { color: #D8D9D7; }
-.Home-studio-podcast-interior.-Microphone,-laptop-and-on-air-lamp-on-the-table,-close-up-3-hex { color: #D97823; }
-.Home-studio-podcast-interior.-Microphone,-laptop-and-on-air-lamp-on-the-table,-close-up-4-hex { color: #8C745E; }
-.Home-studio-podcast-interior.-Microphone,-laptop-and-on-air-lamp-on-the-table,-close-up-5-hex { color: #BFAE9F; }
 
 
 .cx_cabeçalho{
-    background-color:#1A2624;
+    background-color:#0D0D0D;
 }
 
 .titulo_cabeçalho{
@@ -60,11 +54,13 @@
 }
 
 .contener_tec{
+    background-color: #0D0D0D;
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    border:#BFAE9F solid 1px;
+    border:#0D0D0D solid 1px;
     border-radius: 4px;
+    border-style: none;
     margin: 50px 200px;
     padding: 20px;
 }
@@ -85,24 +81,26 @@
 /* style da aba chill */
 
 .cx_total{
-    margin-top: 40px;
+    padding: 40px;
+    background-color: #595959;
 }
 
 .contener_relax{
-    background-color: #8C745E;
+    background-color: #0D0D0D;
     display: flex;
     justify-items: center;
     justify-content: space-between;
-    margin: 50px 300px;
-    border: #BFAE9F solid 1px;
+    margin: 50px 200px;
+    border: #0D0D0D solid 1px;
+    border-style: none;
     padding: 20px;
     border-radius: 4px;
     
 }
 
 .img_relax{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .controles{
