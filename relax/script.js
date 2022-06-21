@@ -14,7 +14,7 @@ var wavesurfer = WaveSurfer.create({
     
 });
 
-wavesurfer.load('./song/ChuvaFloresta.mp3');
+wavesurfer.load('../song/ChuvaFloresta.mp3');
 
 playBtn.addEventListener("click", function(){
     wavesurfer.playPause();
@@ -45,7 +45,7 @@ var wavesurfer2 = WaveSurfer.create({
 });
 
 
-wavesurfer2.load('./song/fogo01.mp3');
+wavesurfer2.load('../song/fogo01.mp3');
 
 playBtn1.addEventListener("click", function(){
     wavesurfer2.playPause();
