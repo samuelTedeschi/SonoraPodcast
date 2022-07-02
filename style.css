@@ -1,27 +1,40 @@
-
-
-.cx_cabeçalho{
+/*Cabeçalho*/
+.cabecalho{
     background-color:#0D0D0D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.titulo_cabeçalho{
-    color: white;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 3.5rem;
+.cabecalho h1{
+  margin-left: 40px;
 }
 
-.cx_principal{
+.cabecalho button{
+    margin-right: 40px;
+    height: 40px;
+}
+
+nav{
+    background-color: #0D0D0D;
+}
+
+/*Conteudo*/
+.conteudo{
     position: relative;
 }
 
-.conteudo_apresentaçao{
+.conteudo img{
+    filter: grayscale(1);
+}
+
+.texto{
     position: absolute;
     top: 40vh;
 }
 
-.t_banner{
+.texto h2{
     margin-left: 40px;
     font-size: 4rem;
     color: black;
@@ -29,22 +42,14 @@
     margin-bottom: 30px;
 }
 
-.p_banner{
+.texto p{
     margin-left: 40px;
     margin-right: 600px;
 
 }
 
-.btn{
-    margin-left: 20px;
-}
-
-.link{
-    color: #BFAE9F;
-    text-decoration: none;
-}
-.link:hover{
-    color: #BFAE9F;
+.btns button{
+    margin-left: 40px;
 }
 
 
@@ -117,29 +122,27 @@
 
 @media only screen and (max-width: 480px) {
 
+    /*Cabeçalho*/
+    .cabecalho h1{
+        margin: 0;
+    }
+    .cabecalho button{
+        margin: 0;
+    }
+
     /*hommer*/
-    .t_banner{
+    .texto h2{
         font-size: 3rem;
     }
 
-    .p_banner{
+    .texto p{
         margin: 0 10px;
         text-align: center;
     }
 
-    .conteudo_apresentaçao{
-        top: 30vh;
-    }
-
-    .btn{
-        margin-top: 10px;
-    }
-
-    .link{
-        color: #0D0D0D;
-    }
-    .link:hover{
-        color: #0D0D0D;
+    .btns{
+        margin-top: 40px;
+        margin-left: 40px;
     }
 
     /*tecnologia*/
