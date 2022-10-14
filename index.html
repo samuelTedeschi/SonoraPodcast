@@ -13,37 +13,53 @@
 </head>
 <body>
     <!--Cabeçalhao-->
-    <header class="cabecalho">
-        <h1 class="text-white">Sonora Podcast</h1>
-        <button class="btn btn-secondary">Login</button>
+    <header class="p-3 mb-2 bg-dark text-white container rounded-bottom">
+        <h3 class="text-white">Sonora Podcast</h3>
     </header>
     <!--navbar-->
-        <nav>
-            <ul class="nav nav-tabs nav-justified">
-                <li class="nav-item">
-                    <a href="./index.html" class="nav-link active text-dark">Homer</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./tec/tecnologia.html" class="nav-link text-white">Tecnologias</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./relax/chill.html" class="nav-link text-white">Som Ambiente</a>
-                </li>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./relax/chill.html">Novos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+                  <li><a class="dropdown-item" href="#">Foco e Diciplina</a></li>
+                  <li><a class="dropdown-item" href="#">Bate-papo</a></li>
+                </ul>
+            </li>
             </ul>
-        </nav>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!--Banner de aprensetaçao-->
-    <section class=conteudo>
+    <div class="container">
         <img src="./img/banner.jpg" alt="imagem" class="img-fluid">
-            <div class="texto">
-                <h2 class="text-dark">Sonora Podcast</h2>
-                    <p class="text-dark">Aqui você encontra Podcast com o assusto de novidades do mundo da tecnologia,
-                        e também uma área com músicas para você se concentrar e manter o foco.
-                    </p>
-                        <div class="btns">
-                            <button class="btn btn-dark jus"><a href="./tec/tecnologia.html" class="text-white">Quero saber mais sobre Tecnologias</a></button>
-                        </div>
-            </div>
-    </section>
+        <div class="texto">
+            <h2 class="text-dark">Sonora Podcast</h2>
+                <p class="text-dark">Aqui você encontra Podcast com o assusto de novidades do mundo da tecnologia,
+                    e também uma área com músicas para você se concentrar e manter o foco.</p>
+                <div class="btns">
+                    <button class="btn btn-dark">
+                        <a href="./tec/tecnologia.html" class="link-light">Quero saber mais sobre Tecnologias</a>
+                    </button>
+                </div>
+        </div>
+    </div>
 </body>
 
 </html>

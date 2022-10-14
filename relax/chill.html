@@ -12,63 +12,74 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header class="cabecalho">
-        <h1 class="text-white">Sonora Podcast</h1>
-        <button class="btn btn-secondary">Login</button>
+    <!--Cabeçalhao-->
+    <header class="p-3 mb-2 bg-dark text-white container rounded-bottom">
+        <h3 class="text-white">Sonora Podcast</h3>
     </header>
-    <nav>
-        <ul class="nav nav-tabs nav-justified">
-            <li class="nav-item">
-                <a href="../index.html" class="nav-link active text-dark">Homer</a>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Novos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+                  <li><a class="dropdown-item" href="#">Foco e Diciplina</a></li>
+                  <li><a class="dropdown-item" href="#">Bate-papo</a></li>
+                </ul>
             </li>
-            <li class="nav-item">
-                <a href="../tec/tecnologia.html" class="nav-link text-white">Tecnologias</a>
-            </li>
-            <li class="nav-item">
-                <a href="./chill.html" class="nav-link text-white">Som Ambiente</a>
-            </li>
-        </ul>
-    </nav>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
+    <hr class="container ">
     <!--Conteudo-->
-    <main class="cx_total">
-
-        <h2 class="text-center text-white">Musicas ambiente para voce relaxar</h2>
-           
-            <div class="contener_relax">
-                <div>
-                    <h3 class="text-white">Chuva</h3>
-                        <p class="text-white">Som de chuva</p>
-
-                            <div id="waveform"></div>
-                                <div class="controles">
-                                    <img src="../img/play.png" alt="" id="playBtn">
-                                    <img src="../img/stop.png" alt="" id="stopBtn">
-                                    <img src="../img/volume.png" alt="" id="volBtn">
-                                </div>
-
-                </div>
-                <img src="../img/pexels-vlad-chețan-1529360.jpg" alt="" class="img_relax">
+    <div class="cx_total container bg-light">
+        <h2 class="text-start text-dark pt-2">Foco e Diciplina</h2>
+        
+        <div class="contener_relax">
+            <div>
+                <h3 class="text-white">Chuva</h3>
+                <p class="text-white">Som de chuva</p>
+                <div id="waveform"></div>
+                    <div class="controles">
+                        <img src="../img/play.png" alt="" id="playBtn">
+                        <img src="../img/stop.png" alt="" id="stopBtn">
+                        <img src="../img/volume.png" alt="" id="volBtn">
+                    </div>
             </div>
+        </div>
 
-            <div class="contener_relax">
-                <div>
-                    <h3 class="text-white">Fogueira</h3>
-                        <p class="text-white">Som de fogueira</p>
-
-                        <div id="waveform-2"></div>
-                            <div class="controles">
-                                <img src="../img/play.png" alt="" id="playBtn1">
-                                <img src="../img/stop.png" alt="" id="stopBtn1">
-                                <img src="../img/volume.png" alt="" id="volBtn1">
-                            </div>
-
-                </div>
-                <img src="../img/pexels-jens-mahnke-776113.jpg" alt="" class="img_relax">
+        <div class="contener_relax">
+            <div>
+                <h3 class="text-white">Fogueira</h3>
+                <p class="text-white">Som de fogueira</p>
+                <div id="waveform-2"></div>
+                    <div class="controles">
+                        <img src="../img/play.png" alt="" id="playBtn1">
+                        <img src="../img/stop.png" alt="" id="stopBtn1">
+                        <img src="../img/volume.png" alt="" id="volBtn1">
+                    </div>
             </div>
+        </div>
 
-    </main>
+    </div>
+
 
     <script src="https://unpkg.com/wavesurfer.js"></script>
 
