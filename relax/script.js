@@ -8,7 +8,7 @@ var wavesurfer = WaveSurfer.create({
     waveColor: '#D8D9D7',
     progressColor: '#D97823',
     barWidth: 2,
-    height:90,
+    height:60,
     responsive:true,
     hideScrollbar:true,
     
@@ -38,7 +38,7 @@ var wavesurfer2 = WaveSurfer.create({
     waveColor: '#D8D9D7',
     progressColor: '#D97823',
     barWidth: 2,
-    height:90,
+    height:60,
     responsive:true,
     hideScrollbar:true,
     
